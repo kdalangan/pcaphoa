@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.4.5</version>
+    <build_environment>
+      <compiler>7.3.0 (7.3.0)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-Bsymbolic-functions -Wl,-z,relro</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat  -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2019-04-24T13:07:55</compilation_date>
+      <library name="boost" version="106501"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.4.0-150-generic</os_release>
+      <os_version>#167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023</os_version>
+      <host>manageNode</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -r /home/kdalangan/pcap8/pcap_dest/hoa8.pcap -o /home/kdalangan/pcap8/pcap_out/</command_line>
+      <uid>1000</uid>
+      <start_time>2024-03-13T08:52:03Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.061.00443-010.000.002.015.46858c1</filename>
+      <filesize>31</filesize>
+      <tcpflow startime='2024-03-13T12:50:50.055436Z' endtime='2024-03-13T12:50:50.056009Z' src_ipn='185.125.188.61' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='2' srcport='443' dstport='46858' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.061.00443-010.000.002.015.46856c1</filename>
+      <filesize>31</filesize>
+      <tcpflow startime='2024-03-13T12:50:50.144278Z' endtime='2024-03-13T12:50:50.144279Z' src_ipn='185.125.188.61' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='2' srcport='443' dstport='46856' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.34140-020.205.243.166.00443c1</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.791615Z' endtime='2024-03-13T12:51:38.862856Z' src_ipn='10.0.2.15' dst_ipn='20.205.243.166' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='6' srcport='34140' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//020.205.243.166.00443-010.000.002.015.34140c1</filename>
+      <filesize>3493</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.823950Z' endtime='2024-03-13T12:51:38.894988Z' src_ipn='20.205.243.166' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='6' srcport='443' dstport='34140' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50750-185.199.110.154.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.229845Z' endtime='2024-03-13T12:51:39.277078Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='50750' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50758-185.199.110.154.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.231163Z' endtime='2024-03-13T12:51:39.279099Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='50758' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50766-185.199.110.154.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.232473Z' endtime='2024-03-13T12:51:39.280195Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='50766' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50776-185.199.110.154.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.237945Z' endtime='2024-03-13T12:51:39.281211Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='50776' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50782-185.199.110.154.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.238087Z' endtime='2024-03-13T12:51:39.282029Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='50782' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50782c1</filename>
+      <filesize>4290</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.241558Z' endtime='2024-03-13T12:51:39.286117Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='11' srcport='443' dstport='50782' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50776c1</filename>
+      <filesize>4290</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.240006Z' endtime='2024-03-13T12:51:39.286117Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='11' srcport='443' dstport='50776' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.36544-185.199.108.133.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.278212Z' endtime='2024-03-13T12:51:39.309122Z' src_ipn='10.0.2.15' dst_ipn='185.199.108.133' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='36544' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.53744-018.164.154.078.00443c1</filename>
+      <filesize>526</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.016067Z' endtime='2024-03-13T12:51:40.541511Z' src_ipn='10.0.2.15' dst_ipn='18.164.154.78' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='12' srcport='53744' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.60160-034.120.208.123.00443c1</filename>
+      <filesize>529</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.817703Z' endtime='2024-03-13T12:51:40.913576Z' src_ipn='10.0.2.15' dst_ipn='34.120.208.123' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='60160' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//020.205.243.166.00443-010.000.002.015.34158c1</filename>
+      <filesize>3738</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.903475Z' endtime='2024-03-13T12:51:41.978062Z' src_ipn='20.205.243.166' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='34158' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.34158-020.205.243.166.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.865549Z' endtime='2024-03-13T12:51:41.978056Z' src_ipn='10.0.2.15' dst_ipn='20.205.243.166' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='34158' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.38740-142.250.207.074.00443c1</filename>
+      <filesize>1320</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.868829Z' endtime='2024-03-13T12:51:42.209997Z' src_ipn='10.0.2.15' dst_ipn='142.250.207.74' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='15' srcport='38740' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//142.250.207.074.00443-010.000.002.015.38740c1</filename>
+      <filesize>5909</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.911747Z' endtime='2024-03-13T12:51:42.250714Z' src_ipn='142.250.207.74' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='15' srcport='443' dstport='38740' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.37632-140.082.114.022.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.384119Z' endtime='2024-03-13T12:51:43.223707Z' src_ipn='10.0.2.15' dst_ipn='140.82.114.22' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='11' srcport='37632' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//140.082.114.022.00443-010.000.002.015.37632c1</filename>
+      <filesize>4308</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.605659Z' endtime='2024-03-13T12:51:43.224816Z' src_ipn='140.82.114.22' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='37632' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//140.082.114.025.00443-010.000.002.015.60648c1</filename>
+      <filesize>4266</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.534814Z' endtime='2024-03-13T12:51:43.553949Z' src_ipn='140.82.114.25' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='12' srcport='443' dstport='60648' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.60648-140.082.114.025.00443c1</filename>
+      <filesize>1993</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.299191Z' endtime='2024-03-13T12:51:43.554668Z' src_ipn='10.0.2.15' dst_ipn='140.82.114.25' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='14' srcport='60648' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46858-185.125.188.061.00443c1</filename>
+      <filesize>31</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.067057Z' endtime='2024-03-13T12:51:45.067119Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.61' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='2' srcport='46858' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46856-185.125.188.061.00443c1</filename>
+      <filesize>31</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.144244Z' endtime='2024-03-13T12:51:45.144320Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.61' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='2' srcport='46856' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46438-185.125.188.058.00443c1</filename>
+      <filesize>1701</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.709910Z' endtime='2024-03-13T12:51:46.647200Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.58' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='26' srcport='46438' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46422-185.125.188.058.00443c1</filename>
+      <filesize>1698</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.709868Z' endtime='2024-03-13T12:51:46.651278Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.58' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='22' srcport='46422' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.058.00443-010.000.002.015.46438c1</filename>
+      <filesize>54090</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.895350Z' endtime='2024-03-13T12:51:46.832970Z' src_ipn='185.125.188.58' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='28' srcport='443' dstport='46438' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.058.00443-010.000.002.015.46422c1</filename>
+      <filesize>60140</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.895913Z' endtime='2024-03-13T12:51:46.839211Z' src_ipn='185.125.188.58' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='23' srcport='443' dstport='46422' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.058.00443-010.000.002.015.46412c1</filename>
+      <filesize>14948</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.956685Z' endtime='2024-03-13T12:51:51.458800Z' src_ipn='185.125.188.58' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='13' srcport='443' dstport='46412' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46412-185.125.188.058.00443c1</filename>
+      <filesize>1694</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.709807Z' endtime='2024-03-13T12:51:51.459556Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.58' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='15' srcport='46412' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.058.00443-010.000.002.015.46440c1</filename>
+      <filesize>68908</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.973019Z' endtime='2024-03-13T12:51:51.927830Z' src_ipn='185.125.188.58' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='24' srcport='443' dstport='46440' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46440-185.125.188.058.00443c1</filename>
+      <filesize>2997</filesize>
+      <tcpflow startime='2024-03-13T12:51:45.709982Z' endtime='2024-03-13T12:51:51.928345Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.58' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='25' srcport='46440' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//140.082.114.025.00443-010.000.002.015.42938c1</filename>
+      <filesize>4269</filesize>
+      <tcpflow startime='2024-03-13T12:51:44.167872Z' endtime='2024-03-13T12:51:44.847723Z' src_ipn='140.82.114.25' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='11' srcport='443' dstport='42938' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.42938-140.082.114.025.00443c1</filename>
+      <filesize>1916</filesize>
+      <tcpflow startime='2024-03-13T12:51:43.947503Z' endtime='2024-03-13T12:51:44.847747Z' src_ipn='10.0.2.15' dst_ipn='140.82.114.25' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='12' srcport='42938' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//152.195.038.076.00080-010.000.002.015.41836c1</filename>
+      <filesize>737</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.977439Z' endtime='2024-03-13T12:52:03.228730Z' src_ipn='152.195.38.76' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='5' srcport='80' dstport='41836' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//020.205.243.168.00443-010.000.002.015.53344c1</filename>
+      <filesize>4827</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.369051Z' endtime='2024-03-13T12:51:43.152897Z' src_ipn='20.205.243.168' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='43' srcport='443' dstport='53344' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.37620-140.082.114.022.00443c1</filename>
+      <filesize>3915</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.367195Z' endtime='2024-03-13T12:51:43.231129Z' src_ipn='10.0.2.15' dst_ipn='140.82.114.22' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='17' srcport='37620' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.33374-172.217.027.003.00080c1</filename>
+      <filesize>426</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.023189Z' endtime='2024-03-13T12:52:02.468336Z' src_ipn='10.0.2.15' dst_ipn='172.217.27.3' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='6' srcport='33374' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//151.101.129.091.00443-010.000.002.015.53198c1</filename>
+      <filesize>214336</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.526088Z' endtime='2024-03-13T12:51:44.148611Z' src_ipn='151.101.129.91' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='44' srcport='443' dstport='53198' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.41822-152.195.038.076.00080c1</filename>
+      <filesize>848</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.636032Z' endtime='2024-03-13T12:52:03.228406Z' src_ipn='10.0.2.15' dst_ipn='152.195.38.76' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='8' srcport='41822' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//140.082.114.022.00443-010.000.002.015.37620c1</filename>
+      <filesize>5335</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.590272Z' endtime='2024-03-13T12:51:43.231110Z' src_ipn='140.82.114.22' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='16' srcport='443' dstport='37620' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//172.217.027.003.00080-010.000.002.015.33374c1</filename>
+      <filesize>701</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.064550Z' endtime='2024-03-13T12:52:02.468588Z' src_ipn='172.217.27.3' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='5' srcport='80' dstport='33374' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.107.243.093.00443-010.000.002.015.38192c1</filename>
+      <filesize>3726</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.564744Z' endtime='2024-03-13T12:51:38.912949Z' src_ipn='34.107.243.93' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='8' srcport='443' dstport='38192' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46904-034.160.144.191.00443c1</filename>
+      <filesize>872</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.706942Z' endtime='2024-03-13T12:51:38.542301Z' src_ipn='10.0.2.15' dst_ipn='34.160.144.191' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='15' srcport='46904' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.160.144.191.00443-010.000.002.015.46904c1</filename>
+      <filesize>9287</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.737466Z' endtime='2024-03-13T12:51:38.542510Z' src_ipn='34.160.144.191' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='14' srcport='443' dstport='46904' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.38192-034.107.243.093.00443c1</filename>
+      <filesize>782</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.534925Z' endtime='2024-03-13T12:51:38.912481Z' src_ipn='10.0.2.15' dst_ipn='34.107.243.93' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='9' srcport='38192' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.56550-023.033.184.237.00080c1</filename>
+      <filesize>1692</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.673264Z' endtime='2024-03-13T12:52:00.412511Z' src_ipn='10.0.2.15' dst_ipn='23.33.184.237' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='12' srcport='56550' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.117.237.239.00443-010.000.002.015.46582c1</filename>
+      <filesize>5362</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.413607Z' endtime='2024-03-13T12:51:38.614640Z' src_ipn='34.117.237.239' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='12' srcport='443' dstport='46582' family='2' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-03-13T12:51:08.292991Z' endtime='2024-03-13T12:51:23.548406Z' src_ipn='10.0.2.15' dst_ipn='162.213.33.48' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='5' srcport='34170' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.120.208.123.00443-010.000.002.015.60146c1</filename>
+      <filesize>6305</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.560236Z' endtime='2024-03-13T12:51:41.032409Z' src_ipn='34.120.208.123' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='43' srcport='443' dstport='60146' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50852-034.107.221.082.00080c1</filename>
+      <filesize>303</filesize>
+      <tcpflow startime='2024-03-13T12:51:36.917514Z' endtime='2024-03-13T12:51:57.390614Z' src_ipn='10.0.2.15' dst_ipn='34.107.221.82' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='6' srcport='50852' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50836-034.107.221.082.00080c1</filename>
+      <filesize>301</filesize>
+      <tcpflow startime='2024-03-13T12:51:36.667496Z' endtime='2024-03-13T12:51:57.090751Z' src_ipn='10.0.2.15' dst_ipn='34.107.221.82' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='6' srcport='50836' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50758c1</filename>
+      <filesize>4325</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.233564Z' endtime='2024-03-13T12:51:39.279354Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='50758' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.42102-034.149.100.209.00443c1</filename>
+      <filesize>1129</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.826551Z' endtime='2024-03-13T12:51:40.212317Z' src_ipn='10.0.2.15' dst_ipn='34.149.100.209' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='14' srcport='42102' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.53344-020.205.243.168.00443c1</filename>
+      <filesize>43135</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.337183Z' endtime='2024-03-13T12:51:43.152959Z' src_ipn='10.0.2.15' dst_ipn='20.205.243.168' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='27' srcport='53344' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.107.221.082.00080-010.000.002.015.50852c1</filename>
+      <filesize>216</filesize>
+      <tcpflow startime='2024-03-13T12:51:36.947464Z' endtime='2024-03-13T12:51:57.390964Z' src_ipn='34.107.221.82' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='5' srcport='80' dstport='50852' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//023.033.184.237.00080-010.000.002.015.56550c1</filename>
+      <filesize>3553</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.691440Z' endtime='2024-03-13T12:52:00.412845Z' src_ipn='23.33.184.237' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='11' srcport='80' dstport='56550' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.33936-104.018.038.233.00080c1</filename>
+      <filesize>1271</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.915035Z' endtime='2024-03-13T12:52:03.483926Z' src_ipn='10.0.2.15' dst_ipn='104.18.38.233' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='10' srcport='33936' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.46582-034.117.237.239.00443c1</filename>
+      <filesize>1061</filesize>
+      <tcpflow startime='2024-03-13T12:51:37.383815Z' endtime='2024-03-13T12:51:38.614456Z' src_ipn='10.0.2.15' dst_ipn='34.117.237.239' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='13' srcport='46582' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.41836-152.195.038.076.00080c1</filename>
+      <filesize>424</filesize>
+      <tcpflow startime='2024-03-13T12:51:42.974534Z' endtime='2024-03-13T12:52:03.228458Z' src_ipn='10.0.2.15' dst_ipn='152.195.38.76' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='6' srcport='41836' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.108.133.00443-010.000.002.015.36544c1</filename>
+      <filesize>4343</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.282998Z' endtime='2024-03-13T12:51:39.310447Z' src_ipn='185.199.108.133' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='36544' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//152.195.038.076.00080-010.000.002.015.41822c1</filename>
+      <filesize>1474</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.638707Z' endtime='2024-03-13T12:52:03.228730Z' src_ipn='152.195.38.76' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='7' srcport='80' dstport='41822' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.39898-185.125.188.055.00443c1</filename>
+      <filesize>6840</filesize>
+      <tcpflow startime='2024-03-13T12:52:01.020991Z' endtime='2024-03-13T12:52:04.076481Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.55' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='22' srcport='39898' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.149.100.209.00443-010.000.002.015.42102c1</filename>
+      <filesize>4592</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.857211Z' endtime='2024-03-13T12:51:40.212478Z' src_ipn='34.149.100.209' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='13' srcport='443' dstport='42102' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//020.205.243.166.00443-010.000.002.015.34142c1</filename>
+      <filesize>17080</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.895368Z' endtime='2024-03-13T12:51:43.941054Z' src_ipn='20.205.243.166' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='25' srcport='443' dstport='34142' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.38200-034.107.243.093.00443c1</filename>
+      <filesize>1504</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.915322Z' endtime='2024-03-13T12:51:39.490535Z' src_ipn='10.0.2.15' dst_ipn='34.107.243.93' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='9' srcport='38200' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//018.164.154.078.00443-010.000.002.015.53744c1</filename>
+      <filesize>4416</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.188613Z' endtime='2024-03-13T12:51:40.711788Z' src_ipn='18.164.154.78' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='12' srcport='443' dstport='53744' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.34142-020.205.243.166.00443c1</filename>
+      <filesize>4302</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.863429Z' endtime='2024-03-13T12:51:43.941188Z' src_ipn='10.0.2.15' dst_ipn='20.205.243.166' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='24' srcport='34142' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//104.018.038.233.00080-010.000.002.015.33936c1</filename>
+      <filesize>2325</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.917625Z' endtime='2024-03-13T12:52:03.484254Z' src_ipn='104.18.38.233' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='9' srcport='80' dstport='33936' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.60146-034.120.208.123.00443c1</filename>
+      <filesize>5128</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.530482Z' endtime='2024-03-13T12:51:41.032251Z' src_ipn='10.0.2.15' dst_ipn='34.120.208.123' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='36' srcport='60146' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50750c1</filename>
+      <filesize>4325</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.233564Z' endtime='2024-03-13T12:51:39.277921Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='50750' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.53198-151.101.129.091.00443c1</filename>
+      <filesize>526</filesize>
+      <tcpflow startime='2024-03-13T12:51:41.523978Z' endtime='2024-03-13T12:51:44.148694Z' src_ipn='10.0.2.15' dst_ipn='151.101.129.91' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='45' srcport='53198' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.107.243.093.00443-010.000.002.015.38200c1</filename>
+      <filesize>1187</filesize>
+      <tcpflow startime='2024-03-13T12:51:38.945028Z' endtime='2024-03-13T12:51:39.490511Z' src_ipn='34.107.243.93' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='8' srcport='443' dstport='38200' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.108.133.00443-010.000.002.015.36550c1</filename>
+      <filesize>34921</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.282998Z' endtime='2024-03-13T12:51:39.312825Z' src_ipn='185.199.108.133' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='20' srcport='443' dstport='36550' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.50754-185.199.110.154.00443c1</filename>
+      <filesize>3026</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.230455Z' endtime='2024-03-13T12:51:41.438908Z' src_ipn='10.0.2.15' dst_ipn='185.199.110.154' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='47' srcport='50754' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50754c1</filename>
+      <filesize>196185</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.232417Z' endtime='2024-03-13T12:51:41.438888Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='48' srcport='443' dstport='50754' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.125.188.055.00443-010.000.002.015.39898c1</filename>
+      <filesize>21342</filesize>
+      <tcpflow startime='2024-03-13T12:52:01.207183Z' endtime='2024-03-13T12:52:04.030203Z' src_ipn='185.125.188.55' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='23' srcport='443' dstport='39898' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.120.208.123.00443-010.000.002.015.60160c1</filename>
+      <filesize>3850</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.847573Z' endtime='2024-03-13T12:51:40.942963Z' src_ipn='34.120.208.123' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='60160' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//185.199.110.154.00443-010.000.002.015.50766c1</filename>
+      <filesize>4325</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.235339Z' endtime='2024-03-13T12:51:39.282998Z' src_ipn='185.199.110.154' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='10' srcport='443' dstport='50766' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//034.107.221.082.00080-010.000.002.015.50836c1</filename>
+      <filesize>298</filesize>
+      <tcpflow startime='2024-03-13T12:51:36.697837Z' endtime='2024-03-13T12:51:57.091189Z' src_ipn='34.107.221.82' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='5' srcport='80' dstport='50836' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.36550-185.199.108.133.00443c1</filename>
+      <filesize>1142</filesize>
+      <tcpflow startime='2024-03-13T12:51:39.278431Z' endtime='2024-03-13T12:51:39.313028Z' src_ipn='10.0.2.15' dst_ipn='185.199.108.133' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='21' srcport='36550' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//010.000.002.015.53732-018.164.154.078.00443c1</filename>
+      <filesize>1418</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.015869Z' endtime='2024-03-13T12:51:40.918511Z' src_ipn='10.0.2.15' dst_ipn='18.164.154.78' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ab:45:a0' packets='16' srcport='53732' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/kdalangan/pcap8/pcap_out//018.164.154.078.00443-010.000.002.015.53732c1</filename>
+      <filesize>9827</filesize>
+      <tcpflow startime='2024-03-13T12:51:40.176535Z' endtime='2024-03-13T12:51:40.918496Z' src_ipn='18.164.154.78' dst_ipn='10.0.2.15' mac_daddr='08:00:27:ab:45:a0' mac_saddr='52:54:00:12:35:02' packets='15' srcport='443' dstport='53732' family='2' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>50</open_fds_at_end>
+  <max_open_flows>56</max_open_flows>
+  <total_flows>83</total_flows>
+  <flow_map_size>51</flow_map_size>
+  <total_packets>1235</total_packets>
+  <rusage>
+    <utime>0.008657</utime>
+    <stime>0.000000</stime>
+    <maxrss>10012</maxrss>
+    <minflt>1172</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>2296</oublock>
+    <clocktime>0.002448</clocktime>
+  </rusage>
+</dfxml>
